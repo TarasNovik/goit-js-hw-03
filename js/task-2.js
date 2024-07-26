@@ -1,5 +1,11 @@
 function makeArray(firstArray, secondArray, maxLength) {
     const arreyNew = firstArray.concat(secondArray);
+    if (planets.length < maxLength) {
+        return (arreyNew.slice(0, maxLength));
+    } else {
+        return (arreyNew);
+    }
+
     return (arreyNew);
 }
 console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3)); // ["Mango", "Poly", "Ajax"]
