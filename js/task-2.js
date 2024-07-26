@@ -1,6 +1,6 @@
 function makeArray(firstArray, secondArray, maxLength) {
     const arreyNew = firstArray.concat(secondArray);
-    if (planets.length < maxLength) {
+    if (arreyNew.length < maxLength) {
         return (arreyNew.slice(0, maxLength));
     } else {
         return (arreyNew);
