@@ -2,7 +2,8 @@
 function slugify(title) {
 
     const slugText = title.toLowerCase();
-    return (slugText);
+    const text = String(slugText);
+    return (text.join("-"));
 }
 
 console.log(slugify("Arrays for begginers")); // "arrays-for-begginers"
