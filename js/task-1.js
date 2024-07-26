@@ -1,9 +1,11 @@
 `use strict`;
 function slugify(title) {
+    const titleLow = title.toLowerCase();
+    const slug = [titleLow];
+    return (slug.join("-"))
 
-    const slugText = title.toLowerCase();
-    const text = String(slugText);
-    return (text.join("-"));
+
+
 }
 
 console.log(slugify("Arrays for begginers")); // "arrays-for-begginers"
