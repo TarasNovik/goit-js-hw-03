@@ -1,10 +1,8 @@
 `use strict`;
 function slugify(title) {
     const titleLow = title.toLowerCase();
-    const slug = [titleLow];
-    return (slug.join("-"))
-
-
+    const slug = titleLow.split(" ");
+    return (slug.join("-"));
 
 }
 
