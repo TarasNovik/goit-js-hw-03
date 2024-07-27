@@ -1,8 +1,9 @@
 function filterArray(numbers, value) {
     const newArrey = [];
+    const zal = numbers[i];
     for (let i = 0; i < numbers.length; i += 1) {
-        if (numbers[i] > value) {
-            newArrey.push(`${i}`);
+        if (zal > value) {
+            newArrey.push(zal);
 
         }
         return (newArrey);
