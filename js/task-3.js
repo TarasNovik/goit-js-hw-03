@@ -1,7 +1,7 @@
 function filterArray(numbers, value) {
     const newArrey = [];
     for (let i = 0; i < numbers.length; i += 1) {
-        if (${ i } > value) {
+        if (`${i}` > value) {
             newArrey.push(`${i}`);
 
         };
