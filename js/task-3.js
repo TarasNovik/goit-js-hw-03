@@ -7,11 +7,11 @@ function filterArray(numbers, value) {
             newArrey.push(zal);
 
         }
-        return (newArrey);
+
 
     }
 
-
+    return (newArrey);
 
 }
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
